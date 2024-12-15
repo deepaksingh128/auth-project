@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 connectDB();
 
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['https://auth-project-jnrtikx96-deepaksingh128367-gmailcoms-projects.vercel.app/']
 
 app.use(express.json());
 app.use(cors({origin: allowedOrigins, credentials: true }));
