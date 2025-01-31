@@ -18,7 +18,7 @@ const Header = () => {
         </h1>
 
         <h2 className='text-3xl sm:text-5xl mb-4 font-semibold'>
-          Welcomw to our app
+          Welcome to our app
         </h2>
         <p className='mb-8 max-w-md'>Let's start with the quick product tour and we will have you up
         and running in no time!</p>
